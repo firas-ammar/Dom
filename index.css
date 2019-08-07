@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+
+} 
+.bloc {
+    color: aliceblue;  
+    background: linear-gradient(to bottom right ,violet,black);
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .bloc div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1em;
+   
+    
+  }
+  
+  input, textarea {
+    font: 1em sans-serif;
+    width: 300px;
+  
+    -moz-box-sizing: border-box;
+         box-sizing: border-box;
+  
+    border: 2px solid #999;
+    background: linear-gradient(to bottom right ,violet,black);
+
+  }
+  
+
+  textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+  }
+  
+ .bloc button{
+    width: 300px ;
+    height: 30px;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right ,violet,black);
+
+ }
+
+
